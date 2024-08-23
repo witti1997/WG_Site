@@ -1,0 +1,63 @@
+
+.shoppingListItemStyle {
+    background-color: #f0f0f0; /* Graue Hintergrundfarbe */
+    border-radius: 8px; /* Abgerundete Ecken */
+    padding: 10px; /* Abstand innerhalb der Kachel */
+    margin: 5px 0; /* Abstand zwischen den Kacheln */
+    display: flex;
+    align-items: left;
+    font-size: 16px;
+    width: 100%;
+}
+  
+.shoppingListItemCheckboxStyle {
+margin-right: 10px; /* Abstand zwischen Checkbox und Text */
+}
+
+/* Styling für das Formular */
+.addItemForm {
+    background-color: #ffffff; /* Weißer Hintergrund für das Formular */
+    border: 1px solid #ddd; /* Grauer Rand */
+    border-radius: 8px; /* Abgerundete Ecken */
+    padding: 15px; /* Innenabstand des Formulars */
+    margin-bottom: 20px; /* Abstand nach unten */
+    display: flex; /* Flexbox für die Anordnung */
+    gap: 10px; /* Abstand zwischen den Elementen */
+    align-items: left;
+}
+  
+.addItemInput {
+flex: 1; /* Der Input nimmt den verbleibenden Platz ein */
+padding: 10px; /* Innenabstand für das Eingabefeld */
+border: 1px solid #ddd; /* Grauer Rand für das Eingabefeld */
+border-radius: 4px; /* Abgerundete Ecken für das Eingabefeld */
+font-size: 16px; /* Schriftgröße für das Eingabefeld */
+}
+  
+.addItemButton {
+background-color: #4caf50; /* Grüner Hintergrund */
+color: white; /* Weißer Text */
+border: none; /* Kein Rand */
+border-radius: 4px; /* Abgerundete Ecken */
+padding: 10px 15px; /* Innenabstand des Buttons */
+cursor: pointer; /* Zeiger-Cursor beim Überfahren des Buttons */
+font-size: 16px; /* Schriftgröße für den Button */
+}
+
+.addItemButton:hover {
+background-color: #45a049; /* Dunkleres Grün beim Hover */
+}
+
+.removeCompletedButton {
+background-color: #f44336; /* Roter Hintergrund */
+color: white; /* Weißer Text */
+border: none; /* Kein Rand */
+border-radius: 4px; /* Abgerundete Ecken */
+padding: 10px 15px; /* Innenabstand des Buttons */
+cursor: pointer; /* Zeiger-Cursor beim Überfahren des Buttons */
+font-size: 16px; /* Schriftgröße für den Button */
+}
+
+.removeCompletedButton:hover {
+background-color: #e53935; /* Dunkleres Rot beim Hover */
+}
