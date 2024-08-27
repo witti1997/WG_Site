@@ -1,1 +1,1 @@
-{"componentChunkName":"component---src-pages-blog-tsx","path":"/blog/","result":{"data":{"allFile":{"nodes":[{"name":"another_post"},{"name":"blog_post"}]}},"pageContext":{}},"staticQueryHashes":["1337928940","3159585216"],"slicesMap":{}}
+{"componentChunkName":"component---src-pages-blog-tsx","path":"/blog/","result":{"data":{"allFile":{"nodes":[{"name":"blog_post"},{"name":"another_post"}]}},"pageContext":{}},"staticQueryHashes":["1337928940","3159585216"],"slicesMap":{}}
