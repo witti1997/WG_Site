@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #DDE4ED;
+    color: black;
+    width: 100vw;
+}
+
+.max-w-custom {
+    max-width: 600px;
+  }

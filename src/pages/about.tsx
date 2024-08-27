@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Layout
  from '../components/layout';
-import Seo from '../components/Seo';
+import Seo from '../components/seo';
 // Typanmerkung für die Komponente: Die Komponente gibt ein JSX.Element zurück
 const AboutPage: React.FC = (): JSX.Element => {
   return (

@@ -10,7 +10,7 @@ import Slideshow from '../components/Slideshow'
 const IndexPage = () => {
   return (
       <Layout pageTitle='Home page'>
-          <h1>Mitbewohner of the week</h1>
+          <h1>Mitbewohner of the week:</h1>
           <MitbewohnerContainer 
           />
       </Layout>
